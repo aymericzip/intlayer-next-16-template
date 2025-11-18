@@ -13,11 +13,10 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "@intlayer/swc": "^7.0.1",
-    "intlayer": "^7.0.1",
-    "intlayer-editor": "^7.0.1",
+    "@intlayer/swc": "latest",
+    "intlayer": "latest",
     "next": "16.0.0",
-    "next-intlayer": "^7.0.1",
+    "next-intlayer": "latest",
     "react": "19.2.0",
     "react-dom": "19.2.0"
   },
@@ -25,6 +24,7 @@
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
+    "intlayer-editor": "latest",
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.0.0",
