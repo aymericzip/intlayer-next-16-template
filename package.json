@@ -5,9 +5,10 @@
   "scripts": {
     "dev": "next dev",
     "dev:webpack": "next dev --webpack",
-    "start:editor": "intlayer-editor start",
+    "start:editor": "intlayer-editor start --with 'next dev'" ,
     "editor": "intlayer-editor start",
     "build": "next build",
+    "build:webpack": "next build --webpack",
     "start": "next start",
     "start:all": "concurrently \"npm run start\" \"npm run start:editor\"",
     "lint": "eslint"
