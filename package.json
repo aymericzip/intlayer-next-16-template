@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "dev:webpack": "next dev --webpack",
-    "start:editor": "intlayer-editor start --with 'next dev'" ,
+    "start:editor": "intlayer-editor start --with 'next dev'",
     "editor": "intlayer-editor start",
     "build": "next build",
     "build:webpack": "next build --webpack",
@@ -16,20 +16,20 @@
   "dependencies": {
     "@intlayer/swc": "latest",
     "intlayer": "latest",
-    "next": "16.0.3",
+    "next": "16.0.7",
     "next-intlayer": "latest",
-    "react": "19.2.0",
-    "react-dom": "19.2.0"
+    "react": "19.2.1",
+    "react-dom": "19.2.1"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
-    "@types/node": "^20",
+    "@types/node": "^24.10.1",
     "@types/react": "^19",
     "intlayer-editor": "latest",
     "@types/react-dom": "^19",
     "eslint": "^9",
-    "eslint-config-next": "16.0.3",
+    "eslint-config-next": "16.0.7",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "typescript": "^5.9.3"
   }
 }
