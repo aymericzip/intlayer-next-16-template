@@ -15,8 +15,9 @@
   },
   "dependencies": {
     "@intlayer/swc": "latest",
+    "fuse.js": "7.1.0",
     "intlayer": "latest",
-    "next": "16.0.7",
+    "next": "16.0.10",
     "next-intlayer": "latest",
     "react": "19.2.1",
     "react-dom": "19.2.1"
@@ -25,10 +26,10 @@
     "@tailwindcss/postcss": "^4",
     "@types/node": "^24.10.1",
     "@types/react": "^19",
-    "intlayer-editor": "latest",
     "@types/react-dom": "^19",
     "eslint": "^9",
-    "eslint-config-next": "16.0.7",
+    "eslint-config-next": "16.0.10",
+    "intlayer-editor": "latest",
     "tailwindcss": "^4",
     "typescript": "^5.9.3"
   }
