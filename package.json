@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "intlayer watch --with 'next dev'",
     "dev:webpack": "next dev --webpack",
     "start:editor": "intlayer-editor start --with 'next dev'",
     "editor": "intlayer-editor start",
@@ -14,7 +14,6 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "@intlayer/swc": "latest",
     "fuse.js": "7.1.0",
     "intlayer": "latest",
     "next": "16.0.10",
@@ -26,6 +25,7 @@
     "@tailwindcss/postcss": "^4",
     "@types/node": "^24.10.1",
     "@types/react": "^19",
+    "@intlayer/swc": "latest",
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.0.10",
