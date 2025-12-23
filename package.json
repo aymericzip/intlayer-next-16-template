@@ -16,7 +16,7 @@
   "dependencies": {
     "fuse.js": "7.1.0",
     "intlayer": "latest",
-    "next": "16.0.10",
+    "next": "^16.1.1",
     "next-intlayer": "latest",
     "react": "19.2.1",
     "react-dom": "19.2.1"
@@ -24,8 +24,8 @@
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
     "@types/node": "^24.10.1",
-    "@types/react": "^19",
     "@intlayer/swc": "latest",
+    "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.0.10",
