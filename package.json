@@ -15,16 +15,16 @@
   },
   "dependencies": {
     "fuse.js": "7.1.0",
-    "intlayer": "latest",
+    "intlayer": "8.0.0-canary.5",
     "next": "^16.1.1",
-    "next-intlayer": "latest",
+    "next-intlayer": "8.0.0-canary.5",
     "react": "19.2.1",
     "react-dom": "19.2.1"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
     "@types/node": "^24.10.1",
-    "@intlayer/swc": "latest",
+    "@intlayer/swc": "8.0.0-canary.5",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
