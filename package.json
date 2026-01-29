@@ -15,9 +15,9 @@
   },
   "dependencies": {
     "fuse.js": "7.1.0",
-    "intlayer": "8.0.0-canary.5",
+    "intlayer": "latest",
     "next": "^16.1.1",
-    "next-intlayer": "8.0.0-canary.5",
+    "next-intlayer": "latest",
     "react": "19.2.1",
     "react-dom": "19.2.1"
   },
