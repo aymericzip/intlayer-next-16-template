@@ -10,7 +10,6 @@
     "build": "next build",
     "build:webpack": "next build --webpack",
     "start": "next start",
-    "start:all": "concurrently \"npm run start\" \"npm run start:editor\"",
     "lint": "eslint"
   },
   "dependencies": {
@@ -24,7 +23,7 @@
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
     "@types/node": "^24.10.1",
-    "@intlayer/swc": "8.0.0-canary.5",
+    "@intlayer/swc": "latest",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
