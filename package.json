@@ -14,21 +14,21 @@
   },
   "dependencies": {
     "fuse.js": "7.1.0",
-    "intlayer": "canary",
+    "intlayer": "latest",
     "next": "^16.1.1",
-    "next-intlayer": "canary",
+    "next-intlayer": "latest",
     "react": "19.2.1",
     "react-dom": "19.2.1"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
     "@types/node": "^24.10.1",
-    "@intlayer/swc": "canary",
+    "@intlayer/swc": "latest",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.0.10",
-    "intlayer-editor": "canary",
+    "intlayer-editor": "latest",
     "tailwindcss": "^4",
     "typescript": "^5.9.3"
   }
