@@ -81,14 +81,14 @@ const Page: NextPageIntlayer = async ({ params }) => {
   const { locale } = await params;
 
   return (
-    <IntlayerServerProvider locale={locale}>
+    <>
       <PageContent />
       <ServerComponentExample />
 
       <IntlayerClientProvider locale={locale}>
         <ClientComponentExample />
       </IntlayerClientProvider>
-    </IntlayerServerProvider>
+    </>
   );
 };
 
