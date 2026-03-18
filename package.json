@@ -15,21 +15,21 @@
   "dependencies": {
     "fuse.js": "7.1.0",
     "intlayer": "latest",
-    "next": "^16.1.1",
+    "next": "^16.1.7",
     "next-intlayer": "latest",
-    "react": "19.2.1",
-    "react-dom": "19.2.1"
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
-    "@types/node": "^24.10.1",
+    "@types/node": "^25.5.0",
     "@intlayer/swc": "latest",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "eslint": "^9",
-    "eslint-config-next": "16.0.10",
+    "eslint": "^10.0.3",
+    "eslint-config-next": "16.1.7",
     "intlayer-editor": "latest",
-    "tailwindcss": "^4",
+    "tailwindcss": "^4.2.1",
     "typescript": "^5.9.3"
   }
 }
