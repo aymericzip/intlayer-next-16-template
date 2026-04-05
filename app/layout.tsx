@@ -1,9 +1,12 @@
-import type { FC, PropsWithChildren } from "react";
 import "./globals.css";
+import { IntlayerClientProvider, NextLayoutIntlayer } from "next-intlayer";
 
-const RootLayout: FC<PropsWithChildren> = ({ children }) => (
-	// You can still wrap the children with other providers, Like `next-themes`, `react-query`, `framer-motion`, etc.
-	<>{children}</>
-);
+const RootLayout: NextLayoutIntlayer = async ({ children, params }) => {
+  const { locale } = await params;
+
+  return (
+    <IntlayerClientProvider locale={locale}>{children}</IntlayerClientProvider>
+  );
+};
 
 export default RootLayout;

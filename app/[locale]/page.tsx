@@ -77,6 +77,7 @@ const PageContent: FC = () => {
   );
 };
 
+// @ts-ignore Fix NextPageIntlayer type
 const Page: NextPageIntlayer = async ({ params }) => {
   const { locale } = await params;
 
@@ -85,9 +86,7 @@ const Page: NextPageIntlayer = async ({ params }) => {
       <PageContent />
       <ServerComponentExample />
 
-      <IntlayerClientProvider locale={locale}>
-        <ClientComponentExample />
-      </IntlayerClientProvider>
+      <ClientComponentExample />
     </IntlayerServerProvider>
   );
 };
