@@ -1,5 +1,5 @@
 import "./globals.css";
-import { IntlayerClientProvider, NextLayoutIntlayer } from "next-intlayer";
+import { IntlayerClientProvider, type NextLayoutIntlayer } from "next-intlayer";
 
 const RootLayout: NextLayoutIntlayer = async ({ children, params }) => {
   const { locale } = await params;
