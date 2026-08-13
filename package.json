@@ -21,13 +21,14 @@
     "react-dom": "19.2.6"
   },
   "devDependencies": {
+    "@intlayer/swc": "latest",
     "@tailwindcss/postcss": "^4.3.2",
     "@types/node": "^26.1.0",
-    "@intlayer/swc": "latest",
     "@types/react": "^19.2.17",
     "@types/react-dom": "^19.2.3",
     "eslint": "^10.6.0",
     "eslint-config-next": "16.2.6",
+    "eslint-plugin-intlayer": "latest",
     "intlayer-editor": "latest",
     "tailwindcss": "^4.3.2",
     "typescript": "^6.0.3"
