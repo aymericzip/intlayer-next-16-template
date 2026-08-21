@@ -6,7 +6,16 @@ import intlayer from "eslint-plugin-intlayer";
 const eslintConfig = defineConfig([
   ...nextVitals,
   ...nextTs,
-  ...intlayer,
+  {
+    plugins: { intlayer },
+    rules: {
+      "intlayer/no-raw-text": "warn",
+      "intlayer/static-dictionary-key": "error",
+      "intlayer/no-dynamic-field-access": "error",
+      "intlayer/enforce-adapter-import": "warn",
+      "intlayer/no-unused-content": "warn",
+    },
+  },
   // Override default ignores of eslint-config-next.
   globalIgnores([
     // Default ignores of eslint-config-next:
