@@ -7,7 +7,7 @@ import { LocaleSwitcher } from "../../components/LocaleSwitcher/LocaleSwitcher";
 import { ServerComponentExample } from "../../components/ServerComponentExample";
 
 const PageContent: FC = () => {
-  const content = useIntlayer("page${}");
+  const content = useIntlayer("page");
 
   return (
     <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
